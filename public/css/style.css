@@ -14,6 +14,13 @@ body{
   z-index: -3;   
 }
 
+header{
+    font-size:32px;
+    text-shadow: 1px 1px 1px white, 2px 2px 2px black, 3px 3px 3px white, 4px 4px 4px black;
+float:none;
+margin: auto;
+}
+
 input {
   background-color: #ffffff;
   border: 2px solid #cccccc;
@@ -32,6 +39,10 @@ input {
 
 hr{
     border:10px solid #f0f;
+}
+
+table{
+    font-size: 28px;
 }
 
 button {

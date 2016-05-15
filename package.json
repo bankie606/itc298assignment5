@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/bankie606/itc298assignment4#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
     "express": "^4.13.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.5"
   }
 }
