@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bankie606/itc298assignment4.git"
+    "url": "git+https://github.com/bankie606/itc298assignment5.git"
   },
   "keywords": [
     "ITC298",
@@ -18,9 +18,9 @@
   "author": "Frankie Crescioni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bankie606/itc298assignment4/issues"
+    "url": "https://github.com/bankie606/itc298assignment5/issues"
   },
-  "homepage": "https://github.com/bankie606/itc298assignment4#readme",
+  "homepage": "https://github.com/bankie606/itc298assignment5#readme",
   "dependencies": {
     "body-parser": "^1.15.1",
     "cors": "^2.7.1",
