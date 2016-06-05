@@ -4,7 +4,7 @@ var synth = require('./lib/synths.js');
 var main = require('./handlers/main.js')
 var back_link = "<p><a href='/'>Back</a>";
 
-var routes = require('./routes/routes.js')(app); // passes ‘app’ instance to the routes module
+
 
 app.set('port', process.env.PORT || 3000);
 app.use(express.static('public'));
@@ -15,7 +15,7 @@ var handlebars = require('express-handlebars').create({defaultLayout: 'main', ex
 app.engine('hbs', handlebars.engine);
 app.set('view engine', 'hbs' );
 
-
+var routes = require('./routes/routes.js')(app); // passes ‘app’ instance to the routes module
 
 app.use(function(req,res) {
     res.type('text/plain'); 
